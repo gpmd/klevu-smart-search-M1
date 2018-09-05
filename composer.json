@@ -1,0 +1,9 @@
+{
+  "name": "klevu/smart-search",
+  "description": "Klevu smart search Magento 1 module",
+  "minimum-stability": "dev",
+  "type": "magento-module",
+  "require": {
+    "magento-hackathon/magento-composer-installer": "dev-master"
+  }
+}

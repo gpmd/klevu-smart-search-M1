@@ -1,5 +1,5 @@
 {
-  "name": "gpmd/klevu/smart-search",
+  "name": "gpmd/klevu-smart-search",
   "description": "Klevu smart search Magento 1 module",
   "minimum-stability": "dev",
   "type": "magento-module",

@@ -2298,7 +2298,7 @@ class Klevu_Search_Model_Product_Sync extends Klevu_Search_Model_Sync
         $imageObj->keepFrame(FALSE);
         $imageObj->keepTransparency(true);
         $imageObj->backgroundColor(array(255, 255, 255));
-        $imageObj->resize(200, 200);
+        $imageObj->resize(312, 312);
         $imageObj->save($imageResized);
     }
     

@@ -5,5 +5,5 @@
   "type": "magento-module",
   "require": {
     "magento-hackathon/magento-composer-installer": "dev-master"
-  },
+  }
 }

@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Klevu_Search>
-            <version>1.2.19</version>
+            <version>1.2.20</version>
         </Klevu_Search>
     </modules>
     <global>

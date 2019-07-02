@@ -145,9 +145,10 @@ class Klevu_Search_Model_CatalogSearch_Resource_Fulltext_Collection extends Mage
      * @return Mage_CatalogSearch_Model_Resource_Fulltext_Collection
      */
     public function addSearchFilter($query)
-    {  
-       
-        Mage::getSingleton('catalogsearch/fulltext')->prepareResult();
+    {
+        $q = Mage::helper('catalogsearch')->getQuery();
+        $q->setQueryText($query)->prepare();
+        Mage::getSingleton('catalogsearch/fulltext')->prepareResult($q);
         $queryterm = Mage::getSingleton('core/session')->getData('queryterm'); 
         $sess = isset($queryterm) ? $queryterm : '';
         if($this->_getQuery()->getQueryText() != $sess)
